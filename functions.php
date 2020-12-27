@@ -23,3 +23,10 @@ function add_gtag_to_body() { ?>
     <!-- End Google Tag Manager (noscript) -->
 <?php } 
 add_action('wp_body_open', 'add_gtag_to_body');
+
+<!--GOOGLE CONVERSION TRACKING CODE-->
+<?php if (is_page(xxxxx) ) { ?>
+       <div class="tracking-code">
+            
+       </div>
+<?php } ?>
